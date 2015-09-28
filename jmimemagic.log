@@ -1,0 +1,284 @@
+2015-09-27 19:34:47,170 [main] ERROR stencyl.sw.Session - File 'plaf\version.txt' does not exist
+java.io.FileNotFoundException: File 'plaf\version.txt' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:299)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1711)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1748)
+	at stencyl.sw.Session.instance(Session.java:371)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:569)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.Session.<clinit>(Session.java:47)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:569)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.SW.<clinit>(SW.java:143)
+	at stencyl.sw.Launcher.main(Launcher.java:95)
+2015-09-27 19:34:47,195 [main] ERROR stencyl.sw.Session - File 'plaf\builddate.txt' does not exist
+java.io.FileNotFoundException: File 'plaf\builddate.txt' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:299)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1711)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1748)
+	at stencyl.sw.Session.instance(Session.java:382)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:569)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.Session.<clinit>(Session.java:47)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:569)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.SW.<clinit>(SW.java:143)
+	at stencyl.sw.Launcher.main(Launcher.java:95)
+2015-09-27 19:34:47,817 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-phrases.lang
+2015-09-27 19:34:47,818 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-errors.lang
+2015-09-27 19:34:47,819 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-menu.lang
+2015-09-27 19:34:47,821 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-welcome.lang
+2015-09-27 19:34:47,823 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-dashboard.lang
+2015-09-27 19:34:47,824 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-publish.lang
+2015-09-27 19:34:47,825 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-updater.lang
+2015-09-27 19:34:47,827 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-chat.lang
+2015-09-27 19:34:47,828 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-misc.lang
+2015-09-27 19:34:47,829 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-forge.lang
+2015-09-27 19:34:47,830 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-prefs.lang
+2015-09-27 19:34:47,831 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-creategame.lang
+2015-09-27 19:34:47,833 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-main.lang
+2015-09-27 19:34:47,834 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blocks.lang
+2015-09-27 19:34:47,835 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blockhelp.lang
+2015-09-27 19:34:47,836 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-events.lang
+2015-09-27 19:34:47,837 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-code.lang
+2015-09-27 19:34:47,838 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-attributes.lang
+2015-09-27 19:34:47,839 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-create.lang
+2015-09-27 19:34:47,840 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-byob.lang
+2015-09-27 19:34:47,841 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-main.lang
+2015-09-27 19:34:47,843 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-physics.lang
+2015-09-27 19:34:47,844 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-background.lang
+2015-09-27 19:34:47,846 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-behaviorchooser.lang
+2015-09-27 19:34:47,847 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-desktop.lang
+2015-09-27 19:34:47,848 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-font.lang
+2015-09-27 19:34:47,849 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-sound.lang
+2015-09-27 19:34:47,850 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-tileset.lang
+2015-09-27 19:34:47,851 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-preloader.lang
+2015-09-27 19:34:47,853 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-mobile.lang
+2015-09-27 19:34:47,854 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-groups.lang
+2015-09-27 19:34:47,855 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-attributes.lang
+2015-09-27 19:34:47,856 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-input.lang
+2015-09-27 19:34:47,857 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-animation.lang
+2015-09-27 19:34:47,858 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-main.lang
+2015-09-27 19:34:47,859 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-create.lang
+2015-09-27 19:34:47,860 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-tools.lang
+2015-09-27 19:34:47,862 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-phrases.lang
+2015-09-27 19:34:47,863 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-errors.lang
+2015-09-27 19:34:47,864 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-menu.lang
+2015-09-27 19:34:47,865 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-welcome.lang
+2015-09-27 19:34:47,866 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-dashboard.lang
+2015-09-27 19:34:47,867 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-publish.lang
+2015-09-27 19:34:47,868 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-updater.lang
+2015-09-27 19:34:47,869 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-chat.lang
+2015-09-27 19:34:47,870 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-misc.lang
+2015-09-27 19:34:47,871 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-forge.lang
+2015-09-27 19:34:47,872 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-prefs.lang
+2015-09-27 19:34:47,874 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-creategame.lang
+2015-09-27 19:34:47,875 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-main.lang
+2015-09-27 19:34:47,876 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blocks.lang
+2015-09-27 19:34:47,877 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blockhelp.lang
+2015-09-27 19:34:47,878 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-events.lang
+2015-09-27 19:34:47,879 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-code.lang
+2015-09-27 19:34:47,880 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-attributes.lang
+2015-09-27 19:34:47,880 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-create.lang
+2015-09-27 19:34:47,881 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-byob.lang
+2015-09-27 19:34:47,883 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-main.lang
+2015-09-27 19:34:47,884 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-physics.lang
+2015-09-27 19:34:47,885 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-background.lang
+2015-09-27 19:34:47,886 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-behaviorchooser.lang
+2015-09-27 19:34:47,887 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-desktop.lang
+2015-09-27 19:34:47,888 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-font.lang
+2015-09-27 19:34:47,889 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-sound.lang
+2015-09-27 19:34:47,890 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-tileset.lang
+2015-09-27 19:34:47,891 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-preloader.lang
+2015-09-27 19:34:47,892 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-mobile.lang
+2015-09-27 19:34:47,893 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-groups.lang
+2015-09-27 19:34:47,895 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-attributes.lang
+2015-09-27 19:34:47,896 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-input.lang
+2015-09-27 19:34:47,897 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-animation.lang
+2015-09-27 19:34:47,898 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-main.lang
+2015-09-27 19:34:47,899 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-create.lang
+2015-09-27 19:34:47,901 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-tools.lang
+2015-09-27 19:34:47,903 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-phrases.lang
+2015-09-27 19:34:47,904 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-errors.lang
+2015-09-27 19:34:47,905 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-menu.lang
+2015-09-27 19:34:47,906 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-welcome.lang
+2015-09-27 19:34:47,907 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-dashboard.lang
+2015-09-27 19:34:47,908 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-publish.lang
+2015-09-27 19:34:47,909 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-updater.lang
+2015-09-27 19:34:47,909 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-chat.lang
+2015-09-27 19:34:47,910 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-misc.lang
+2015-09-27 19:34:47,912 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-forge.lang
+2015-09-27 19:34:47,913 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-prefs.lang
+2015-09-27 19:34:47,914 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-creategame.lang
+2015-09-27 19:34:47,916 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-main.lang
+2015-09-27 19:34:47,917 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blocks.lang
+2015-09-27 19:34:47,918 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blockhelp.lang
+2015-09-27 19:34:47,920 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-events.lang
+2015-09-27 19:34:47,921 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-code.lang
+2015-09-27 19:34:47,922 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-attributes.lang
+2015-09-27 19:34:47,923 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-create.lang
+2015-09-27 19:34:47,925 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-byob.lang
+2015-09-27 19:34:47,926 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-main.lang
+2015-09-27 19:34:47,927 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-physics.lang
+2015-09-27 19:34:47,928 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-background.lang
+2015-09-27 19:34:47,929 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-behaviorchooser.lang
+2015-09-27 19:34:47,931 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-desktop.lang
+2015-09-27 19:34:47,932 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-font.lang
+2015-09-27 19:34:47,933 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-sound.lang
+2015-09-27 19:34:47,934 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-tileset.lang
+2015-09-27 19:34:47,935 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-preloader.lang
+2015-09-27 19:34:47,936 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-mobile.lang
+2015-09-27 19:34:47,937 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-groups.lang
+2015-09-27 19:34:47,938 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-attributes.lang
+2015-09-27 19:34:47,939 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-input.lang
+2015-09-27 19:34:47,940 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-animation.lang
+2015-09-27 19:34:47,941 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-main.lang
+2015-09-27 19:34:47,942 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-create.lang
+2015-09-27 19:34:47,943 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-tools.lang
+2015-09-27 19:34:48,543 [AWT-EventQueue-0] ERROR stencyl.sw.SW - Could not parse build number: Unknown
+2015-09-27 19:35:38,931 [main] ERROR stencyl.sw.Session - File 'plaf\version.txt' does not exist
+java.io.FileNotFoundException: File 'plaf\version.txt' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:299)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1711)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1748)
+	at stencyl.sw.Session.instance(Session.java:371)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:569)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.Session.<clinit>(Session.java:47)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:569)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.SW.<clinit>(SW.java:143)
+	at stencyl.sw.Launcher.main(Launcher.java:95)
+2015-09-27 19:35:38,957 [main] ERROR stencyl.sw.Session - File 'plaf\builddate.txt' does not exist
+java.io.FileNotFoundException: File 'plaf\builddate.txt' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:299)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1711)
+	at org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1748)
+	at stencyl.sw.Session.instance(Session.java:382)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:569)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.Session.<clinit>(Session.java:47)
+	at stencyl.sw.util.Locations.getLanguageRoot(Locations.java:569)
+	at stencyl.sw.loc.LanguagePack.<init>(LanguagePack.java:116)
+	at stencyl.sw.loc.LanguagePack.get(LanguagePack.java:83)
+	at stencyl.sw.SW.<clinit>(SW.java:143)
+	at stencyl.sw.Launcher.main(Launcher.java:95)
+2015-09-27 19:35:39,564 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-phrases.lang
+2015-09-27 19:35:39,566 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-errors.lang
+2015-09-27 19:35:39,567 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-menu.lang
+2015-09-27 19:35:39,568 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-welcome.lang
+2015-09-27 19:35:39,569 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-dashboard.lang
+2015-09-27 19:35:39,570 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-publish.lang
+2015-09-27 19:35:39,571 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-updater.lang
+2015-09-27 19:35:39,572 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-chat.lang
+2015-09-27 19:35:39,573 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-misc.lang
+2015-09-27 19:35:39,574 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-forge.lang
+2015-09-27 19:35:39,575 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-prefs.lang
+2015-09-27 19:35:39,576 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-creategame.lang
+2015-09-27 19:35:39,577 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-main.lang
+2015-09-27 19:35:39,578 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blocks.lang
+2015-09-27 19:35:39,579 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blockhelp.lang
+2015-09-27 19:35:39,580 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-events.lang
+2015-09-27 19:35:39,581 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-code.lang
+2015-09-27 19:35:39,582 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-attributes.lang
+2015-09-27 19:35:39,583 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-create.lang
+2015-09-27 19:35:39,584 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-byob.lang
+2015-09-27 19:35:39,585 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-main.lang
+2015-09-27 19:35:39,586 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-physics.lang
+2015-09-27 19:35:39,587 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-background.lang
+2015-09-27 19:35:39,588 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-behaviorchooser.lang
+2015-09-27 19:35:39,589 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-desktop.lang
+2015-09-27 19:35:39,590 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-font.lang
+2015-09-27 19:35:39,591 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-sound.lang
+2015-09-27 19:35:39,592 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-tileset.lang
+2015-09-27 19:35:39,593 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-preloader.lang
+2015-09-27 19:35:39,593 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-mobile.lang
+2015-09-27 19:35:39,594 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-groups.lang
+2015-09-27 19:35:39,595 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-attributes.lang
+2015-09-27 19:35:39,596 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-input.lang
+2015-09-27 19:35:39,597 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-animation.lang
+2015-09-27 19:35:39,598 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-main.lang
+2015-09-27 19:35:39,599 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-create.lang
+2015-09-27 19:35:39,600 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-tools.lang
+2015-09-27 19:35:39,601 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-phrases.lang
+2015-09-27 19:35:39,602 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-errors.lang
+2015-09-27 19:35:39,602 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-menu.lang
+2015-09-27 19:35:39,603 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-welcome.lang
+2015-09-27 19:35:39,604 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-dashboard.lang
+2015-09-27 19:35:39,605 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-publish.lang
+2015-09-27 19:35:39,606 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-updater.lang
+2015-09-27 19:35:39,607 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-chat.lang
+2015-09-27 19:35:39,608 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-misc.lang
+2015-09-27 19:35:39,609 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-forge.lang
+2015-09-27 19:35:39,610 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-prefs.lang
+2015-09-27 19:35:39,610 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-creategame.lang
+2015-09-27 19:35:39,611 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-main.lang
+2015-09-27 19:35:39,612 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blocks.lang
+2015-09-27 19:35:39,613 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blockhelp.lang
+2015-09-27 19:35:39,614 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-events.lang
+2015-09-27 19:35:39,615 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-code.lang
+2015-09-27 19:35:39,615 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-attributes.lang
+2015-09-27 19:35:39,616 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-create.lang
+2015-09-27 19:35:39,617 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-byob.lang
+2015-09-27 19:35:39,618 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-main.lang
+2015-09-27 19:35:39,619 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-physics.lang
+2015-09-27 19:35:39,620 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-background.lang
+2015-09-27 19:35:39,621 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-behaviorchooser.lang
+2015-09-27 19:35:39,621 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-desktop.lang
+2015-09-27 19:35:39,622 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-font.lang
+2015-09-27 19:35:39,623 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-sound.lang
+2015-09-27 19:35:39,624 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-tileset.lang
+2015-09-27 19:35:39,625 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-preloader.lang
+2015-09-27 19:35:39,626 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-mobile.lang
+2015-09-27 19:35:39,627 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-groups.lang
+2015-09-27 19:35:39,628 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-attributes.lang
+2015-09-27 19:35:39,629 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-input.lang
+2015-09-27 19:35:39,630 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-animation.lang
+2015-09-27 19:35:39,631 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-main.lang
+2015-09-27 19:35:39,632 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-create.lang
+2015-09-27 19:35:39,633 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-tools.lang
+2015-09-27 19:35:39,634 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-phrases.lang
+2015-09-27 19:35:39,635 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-errors.lang
+2015-09-27 19:35:39,635 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-menu.lang
+2015-09-27 19:35:39,636 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-welcome.lang
+2015-09-27 19:35:39,637 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-dashboard.lang
+2015-09-27 19:35:39,638 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-publish.lang
+2015-09-27 19:35:39,639 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-updater.lang
+2015-09-27 19:35:39,640 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-chat.lang
+2015-09-27 19:35:39,641 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-misc.lang
+2015-09-27 19:35:39,642 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-forge.lang
+2015-09-27 19:35:39,642 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-prefs.lang
+2015-09-27 19:35:39,643 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\global-creategame.lang
+2015-09-27 19:35:39,644 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-main.lang
+2015-09-27 19:35:39,645 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blocks.lang
+2015-09-27 19:35:39,646 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-blockhelp.lang
+2015-09-27 19:35:39,646 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-events.lang
+2015-09-27 19:35:39,647 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-code.lang
+2015-09-27 19:35:39,648 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-attributes.lang
+2015-09-27 19:35:39,649 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-create.lang
+2015-09-27 19:35:39,650 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\behavior-byob.lang
+2015-09-27 19:35:39,651 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-main.lang
+2015-09-27 19:35:39,651 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-actor-physics.lang
+2015-09-27 19:35:39,652 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-background.lang
+2015-09-27 19:35:39,653 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-behaviorchooser.lang
+2015-09-27 19:35:39,654 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-desktop.lang
+2015-09-27 19:35:39,655 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-font.lang
+2015-09-27 19:35:39,656 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-sound.lang
+2015-09-27 19:35:39,656 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-tileset.lang
+2015-09-27 19:35:39,657 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-preloader.lang
+2015-09-27 19:35:39,658 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-mobile.lang
+2015-09-27 19:35:39,659 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-groups.lang
+2015-09-27 19:35:39,659 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-attributes.lang
+2015-09-27 19:35:39,660 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-input.lang
+2015-09-27 19:35:39,662 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-animation.lang
+2015-09-27 19:35:39,663 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-main.lang
+2015-09-27 19:35:39,664 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-create.lang
+2015-09-27 19:35:39,665 [main] ERROR stencyl.sw.loc.LanguagePack - Missing language file: lang\en\editor-scene-tools.lang
+2015-09-27 19:35:40,213 [AWT-EventQueue-0] ERROR stencyl.sw.SW - Could not parse build number: Unknown
